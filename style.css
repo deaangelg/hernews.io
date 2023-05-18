@@ -1,0 +1,378 @@
+/* Barra de navegacion */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+.container{
+  background-color: #D9DDEA;
+padding: 0.5rem;
+
+}
+.container2{
+  background-color: #D9DDEA;
+  padding: 0.2rem;
+}
+.card {
+  width: 1000px; /* Ajusta el ancho según tus necesidades */
+  height: 200px; /* Ajusta la altura según tus necesidades */
+  margin-left: auto;
+  background-color: #D9DDEA;
+}
+.shadowed-div {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Personaliza la sombra según tus preferencias */
+}
+
+.card-img-top {
+  width: 100%; /* Cambia el valor según el tamaño deseado */
+  height: auto; /* Para mantener la proporción de aspecto */
+  text-align: right;
+}
+.navbar {
+  padding: 0.7rem;
+  background-color: #A16AE8;
+}
+
+.navbar-collapse {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;  /* Cambiado a 'center' para centrar horizontalmente */
+  background-color: #A16AE8;
+}
+
+/* Estilos generales */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+h5 {
+  font-size: 1.7rem;
+  color: #477158;
+  font-family: 'Abril Fatface', cursive;
+  background-color: #D9DDEA;
+  text-align: left;
+}
+h2{
+  font-size:1.7rem; 
+  color:#A16AE8;
+  font-family: 'Abril Fatface', cursive;
+}
+h5:hover {
+  color: #345236; /* Color del texto al pasar el cursor */
+}
+.card-body p {
+  font-family: 'Playfair Display', serif;
+  color: #1b1d1c;
+  background-color: #D9DDEA;
+  text-align: left;
+  font-size: 1.5rem;
+}
+.card-text small.text-muted {
+  font-size: 1.2rem; /* Cambia el tamaño a tu preferencia */
+  color: #716161; /* Cambia el color a tu preferencia */
+  background-color: #D9DDEA;
+  text-align: left;
+  font-size: 1rem;
+}
+
+
+.navbar-nav a {
+  font-size: 1.5rem; /* Tamaño de fuente aumentado */
+  font-family: 'Glacial Indifference', sans-serif; 
+  color: #fff; /* Color del texto */
+  text-decoration: none; /* Sin subrayado */
+}
+
+.navbar-nav a:hover {
+  color: #ddd; /* Color del texto al pasar el cursor */
+}
+
+.custom-navbar {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2); /* Personaliza la sombra según tus preferencias */
+}
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.seccion-clara {
+  background: linear-gradient(to bottom,#D9DDEA,#663f99);
+  font-family: 'Playfair Display', serif;
+  color: #eae1d9;
+  font-size: 1.5rem;
+}
+.experiencia-titulo{
+  font-size: 2rem;
+  padding: 1px 0;
+  font-family: 'Abril Fatface', cursive;
+  color: #D9DDEA#477158;
+  text-align: left;
+} 
+.carousel-item{
+  background: linear-gradient(to bottom,#D9DDEA,#663f99);
+
+}
+
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 1px 0;
+  font-family: 'Abril Fatface', cursive;
+  
+  vertical-align: top;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+.btn-info {
+  font-size: 1.1rem;
+  margin: 100px;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+/* Seccion Hero */
+.hero {
+  background-color: #D9DDEA;
+  min-height: 400px;
+  text-align: center;
+}
+
+
+.hero-principal {
+  padding: 1rem;
+}
+
+.hero-imagen-desarrollador {
+  width:800px;
+  height: 100px;
+  margin: 20px;
+}
+
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+/* Sobre mi */
+
+.sobre-mi {
+  height: 500px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Experiencia */
+
+.experiencia {
+  padding: 5px 40px 5px 40px;
+}
+
+.experiencia .columna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+  text-align: left;
+}
+
+.experiencia .columna:hover {
+  
+  background-color:#D9DDEA;
+}
+
+.experiencia i {
+  font-size: 10rem;
+  color: #11483f;
+  background-color: #92ea58;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experiencia-titulo {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.sub{
+  color:#ffffff
+}
+.carousel-inner {
+  border: none;
+}
+
+
+/* Testimonios */
+
+
+
+/* Contacto */
+
+.contacto .container {
+  max-width: 1100px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.contacto .rectangulo {
+  margin-top: -5rem;
+  background-color: #212E53;
+  border-radius: 10px;
+  box-shadow: 0px 1px 4px 1px white;
+}
+
+.contacto .row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.contacto .descripcion {
+  color: white;
+  font-size: 1.2rem;
+}
+
+.contacto button {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 1.25em 2em;
+  margin: 10px;
+  border-radius: 100px;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+  background-color: white;
+  color: black;
+}
+
+.contacto button i {
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+  color: black;
+}
+
+/* Pie de pagina (footer) */
+
+footer {
+  min-height: 500px;
+}
+
+.footer-logo {
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  padding: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid #212E53;
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .testimonio-imagen {
+    height: 120px;
+    width: 120px;
+  }
+
+  .testimonio-texto {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .hero-inferior-imagen {
+    max-width: 600px;
+  }
+}
